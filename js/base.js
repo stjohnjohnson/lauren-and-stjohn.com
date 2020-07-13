@@ -364,14 +364,7 @@ var maps = {
 
 // Facebook Comments
 var comments = {
-  load: function() {
-    FB.init({
-      appId  : '189812407695848',
-      status : true, // check login status
-      cookie : true, // enable cookies to allow the server to access the session
-      xfbml  : true  // parse XFBML
-    });
-  }
+  load: function() {}
 }
 
 // Internet Explorer HTML5 Fix
